@@ -12,7 +12,7 @@ The stack will be pretty simple. We will be using Django for the backend and [Pl
 
 ### TODO:
 - [X] Create concept to successfully update a user's library access
-- [ ] Setup Django project
+- [X] Setup Django project
 - [ ] Setup mock DB to test against (with stubbed API endpoints)
 - [ ] Design and configure frontend
 - [ ] design and configure production level DB
@@ -21,8 +21,15 @@ The stack will be pretty simple. We will be using Django for the backend and [Pl
 - [ ] Figure out and implement way to get section access list for each user
 - [ ] Create permission groups
 - [ ] Create job to sync permission groups only on request (when button clicked)
-- [ ] Dockerize project for easy deployment on common Plex Server hardware (NAS, RaspberryPi, etc)
+- [X] Dockerize project for easy deployment on common Plex Server hardware (NAS, RaspberryPi, etc)
 
 ### Potential additional features
 - [ ] Manage multiple Plex servers
 - [ ] Integration with Overseerr
+
+### Notes
+- [Django/Docker guide used](https://docs.docker.com/samples/django/)
+    - Build command
+        - `sudo docker-compose run web django-admin startproject grouprr .`
+    - Start project
+        - `docker-compose up`
