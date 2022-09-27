@@ -12,6 +12,7 @@ The stack will be pretty simple. We will be using Django for the backend and [Pl
 
 ### TODO:
 - [X] Create concept to successfully update a user's library access
+- [ ] Setup Django project
 - [ ] Setup mock DB to test against (with stubbed API endpoints)
 - [ ] Design and configure frontend
 - [ ] design and configure production level DB
