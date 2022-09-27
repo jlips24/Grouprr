@@ -27,6 +27,9 @@ The stack will be pretty simple. We will be using Django for the backend and [Pl
 - [ ] Manage multiple Plex servers
 - [ ] Integration with Overseerr
 
+### Git Flow
+To contribute to this project, please open a PR against the `dev` branch. This will act as a staging/beta branch. Once approved and merged, it will eventually make it's way into the `master` branch. This will serve as the production branch. When a build is successful on the `master` branch, it should be down-merged to the `dev` branch.
+
 ### Notes
 - [Django/Docker guide used](https://docs.docker.com/samples/django/)
     - Build command
