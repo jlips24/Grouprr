@@ -25,3 +25,10 @@ The stack will be pretty simple. We will be using Django for the backend and [Pl
 ### Potential additional features
 - [ ] Manage multiple Plex servers
 - [ ] Integration with Overseerr
+
+### Notes
+- [Django/Docker guide used](https://docs.docker.com/samples/django/)
+    - Build command
+        - `sudo docker-compose run web django-admin startproject grouprr .`
+    - Start project
+        - `docker-compose up`
