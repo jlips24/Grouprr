@@ -1,5 +1,5 @@
 ## Grouprr
-#### Plex authorization groups made simple
+#### Plex library access groups made simple
 ----------------------------------------
 
 ### What is this?
